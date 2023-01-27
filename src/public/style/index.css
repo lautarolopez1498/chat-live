@@ -1,0 +1,37 @@
+body{
+  background: url('https://w0.peakpx.com/wallpaper/925/686/HD-wallpaper-whatsapp-background-patterns-texture.jpg');
+  background-repeat: repeat;
+}
+
+#chatBox{
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  background-color: rgb(102, 101, 101);
+  color: aqua;
+}
+
+#history p{
+  background-color: rgb(68, 67, 67);
+  padding: 5px;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#chat {
+  flex: 1;
+  color: rgb(174, 177, 177);
+}
+
+::placeholder { color: rgb(197, 197, 199); }
+
+.myMessage {
+  display: flex;
+  justify-content: end;
+}
